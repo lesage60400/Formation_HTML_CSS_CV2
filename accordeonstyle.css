@@ -1,0 +1,36 @@
+
+#zoom{
+    text-align:center;
+    color:blue;
+    width:49%;
+}
+#zoom img:active {
+    width:250px;
+    height:300px;
+    border:3px solid black;
+}
+#zoom, #coordonées{
+    float:left;
+    width:50%
+}
+#Coordonnées{
+    text-align:center;
+    border:2px solid black;
+    height:245px;
+    margin:auto;
+}
+h1{
+    text-align:center;
+    color:blue;
+    border :2px solid black;
+    font-family:Times new Roman;
+    font-size:75;
+}
+body{
+    cursor : grab;
+}
+.niveau1{
+    front-size:50;
+}
+ul ul ul {display: none;}
+li:hover ul.niveau2, li li:hover ul.niveau3, li li:hover {display:block;}
